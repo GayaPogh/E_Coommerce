@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Village Green
+{% endblock %}
+
+{% block body %}
+	<!-- Bannière image -->
+	<div class="text-center my-4">
+		<img src="{{ asset('images/banner.jpg') }}" alt="Instruments" class="img-fluid rounded shadow-sm">
+	</div>
+
+	<!-- Catégories -->
+	<div class="container my-5">
+		<h2 class="text-center mb-4">Catégories</h2>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			{% for i in 1..6 %}
+				<div class="col">
+					<div class="card h-100 text-center shadow-sm">
+						<div class="card-body">
+							<h5 class="card-title">Nom Catégorie
+								{{ i }}</h5>
+							<p class="card-text">Description courte</p>
+						</div>
+						<div class="card-footer bg-white">
+							<small class="text-muted">Plus de détails</small>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<!-- Produits -->
+	<div class="bg-warning-subtle py-5">
+		<div class="container">
+			<h2 class="mb-4">Produits</h2>
+			<p>Découvrez nos produits les plus populaires...</p>
+		</div>
+	</div>
+
+	<!-- Marques -->
+	<div class="bg-warning py-5">
+		<div class="container">
+			<h2 class="mb-4">Marques</h2>
+			<p>Explorez nos marques partenaires...</p>
+		</div>
+	</div>
+
+	<!-- Quoi de neuf -->
+	<div class="bg-warning-subtle py-5">
+		<div class="container">
+			<h2 class="mb-4">Quoi de neuf</h2>
+			<p>Les dernières nouveautés musicales sont ici !</p>
+		</div>
+	</div>
+{% endblock %}

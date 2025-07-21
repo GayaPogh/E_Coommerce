@@ -1,0 +1,44 @@
+<header class="navbar  fixed-top">
+	<div class="navbar-top">
+		<span class="logo-text">VillageGreen</span>
+	</div>
+
+	<div class="logo-container">
+		<img src="{{ asset('images/logo.svg') }}" alt="VillageGreen" ">
+	</div>
+
+	<div class="navbar-bottom">
+
+		<nav class="menu">
+			<a href="{{ path('app_accueil') }}">Accueil</a>
+			<a href="#">Aide</a>
+			<a href="#">A propos</a>
+			<a href="#">Contact</a>
+		</nav>
+
+		<div class="search-container">
+			<input type="text" placeholder="Rechercher...">
+			<button class="search-btn">🔍</button>
+		</div>
+
+		<div class="icons">
+			<a
+				href="#">
+				<!-- 👤 -->
+				<img width="20" height="20" src="https://img.icons8.com/forma-bold/24/user.png" alt="user"/>
+			</a>
+			<a
+				href="#">
+				<!-- ❤️ -->
+				<img width="20" height="20" src="https://img.icons8.com/forma-bold/24/hearts.png" alt="hearts" alt="like--v1"/>
+
+			</a>
+			<a
+				href="#">
+				<!-- 🛒 -->
+				<img width="20" height="20" src="https://img.icons8.com/forma-bold/24/shopping-cart.png" alt="shopping-cart"/>
+
+			</a>
+		</div>
+	</div>
+</header>

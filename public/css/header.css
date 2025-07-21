@@ -1,0 +1,111 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #d4d8d4;
+    box-shadow: 0 2px 4px rgba(27, 26, 26, 0.1);
+    
+    flex-direction: column;
+}
+
+/* --- ՎԵՐԵՎԻ ՏՈՂ --- */
+.navbar-top {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 54px;
+    color: #3b823e;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 18px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 200px;
+    /* logo-ն ավելի մեծ կլինի */
+    width: auto;
+    /* պահպանում է aspect ratio-ն */
+}
+
+.logo-text {
+    font-size: 46px;
+    color: #3b823e;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 18px;
+}
+.logo {
+    height: 40px;
+}
+
+.navbar-bottom {
+    background-color: #93a15e;
+    /* կանաչ */
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #580517;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #dfe3d4;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.search-container input {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    outline: none;
+    background: transparent;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.icons a {
+    margin-left: 15px;
+    color: #222;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icons a:hover svg {
+    stroke: #7c1333;
+    fill: #d3c617;
+    color: #1835b6;
+}
