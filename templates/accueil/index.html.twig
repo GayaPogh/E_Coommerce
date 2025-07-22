@@ -6,12 +6,13 @@
 
 {% block body %}
 	<!-- Bannière image -->
-	<div class="text-center my-4">
-		<img src="{{ asset('images/banner.jpg') }}" alt="Instruments" class="img-fluid rounded shadow-sm">
-	</div>
+	<div class="container mt-4">
+
+		<img src="{{ asset('images/banner.jpg') }}" alt="Bannière accueil" class="img-fluid rounded shadow-sm w-100"></div>
+
 
 	<!-- Catégories -->
-	<div class="container my-5">
+	<div class=" container my-5">
 		<h2 class="text-center mb-4">Catégories</h2>
 		<div class="row row-cols-1 row-cols-md-3 g-4">
 			{% for i in 1..6 %}

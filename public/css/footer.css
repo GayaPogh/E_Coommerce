@@ -1,0 +1,31 @@
+.footer {
+    background-color: #a09f90;
+    /* նույն գույնը ինչ նկարի մեջ */
+    color: #000;
+}
+
+.logo-text {
+    font-size: 38px;
+    color: #3b823e;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.footer-links p {
+    margin: 8px 0;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social-icons img {
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

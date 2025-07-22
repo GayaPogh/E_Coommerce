@@ -1,21 +1,34 @@
-<footer class="bg-secondary text-white py-4 mt-5">
-	<div class="container d-flex justify-content-between">
-		<div>
-			<img src="{{ asset('images/logo.svg') }}" alt="Village Green Logo" height="50">
-			<p class="mt-2">VillageGreen</p>
+<footer class="footer mt-5 py-6">
+	<div class="container">
+		<div
+			class="row align-items-center justify-content-between">
+
+			<!-- Logo -->
+			<div class="col-md-4 d-flex align-items-center">
+				<img src="{{ asset('images/Logo.png') }}" alt="VillageGreen Logo" style="height: 100px;">
+				<span class="logo-text ms-3">VillageGreen</span>
+			</div>
+
+			<!-- Center Links -->
+			<div class="col-md-4 text-center footer-links">
+				<p>
+					<a href="#">Qui sommes nous</a>
+				</p>
+				<p>
+					<a href="#">Nos magasins</a>
+				</p>
+				<p>
+					<a href="#">Informations légales</a>
+				</p>
+			</div>
+
+			<!-- Social Icons -->
+			<div class="col-md-2 text-end social-icons">
+				<a href="#"><img width="34" height="34" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a><br>
+				<a href="#"><img width="34" height="34" src="https://img.icons8.com/color/48/facebook.png" alt="facebook"/></a><br>
+				<a href="#"><img width="34" height="34" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a><br>
+				<a href="#"><img width="34" height="34" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/></a>
+			</div>
 		</div>
-		<ul class="list-unstyled">
-			<li>
-				<a href="#" class="text-white">Qui sommes-nous</a>
-			</li>
-			<li>
-				<a href="#" class="text-white">Nos magasins</a>
-			</li>
-			<li>
-				<a href="#" class="text-white">Informations légales</a>
-			</li>
-		</ul>
-
-
 	</div>
 </footer>
