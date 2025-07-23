@@ -4,14 +4,31 @@
     align-items: center;
     width: 100%;
     background: #d4d8d4;
-    box-shadow: 0 2px 4px rgba(31, 30, 30, 0.1);
+    box-shadow: 0 2px 4px rgba(43, 43, 42, 0.1);
     flex-direction: column;
+    border-radius: 10px;
 }
-.fixed-top{
-     background-color: #6e6e64;
-    /* Կամ #9c9b8e ըստ քո նկարից */
-    opacity: 0.7;
-    /* կամ 1.0 եթե լիովին անթափանց */
+
+.navbar-bottom {
+    background-color: #4b7724;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-bottom: -10px;
+}
+
+.fixed-top {
+    background-color: rgba(32, 32, 31, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0;
+    z-index: 1030;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(43, 43, 42, 0.1);
 }
 
 .logo-container {
@@ -21,36 +38,35 @@
 
 .logo-text {
     font-size: 46px;
-    color: #3b823e;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Dancing Script', cursive !important;
     margin-top: 30px;
     position: relative;
-    top: 8px;
+    top: 5px;
+}
+
+.village {
+    color: rgb(192, 7, 7);
+}
+
+.green {
+    color: #2ba72b;
 }
 
 .logo-link {
     position: relative;
     top: -6px;
     height: center;
+    text-decoration: none;
 }
 
-.navbar-bottom {
-    background-color: #93a15e;
-    /* կանաչ */
-    padding: 10px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 30px;
-}
 
 .search-container input {
-    background-color: #749660;
+    background-color: #3e6129;
     /* կանաչ */
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 3rem;
     outline: none;
 }
 
