@@ -1,17 +1,11 @@
 .footer {
-    background-color: #636358;
+    background-color: rgba(32, 32, 31, 0.8);
     /* նույն գույնը ինչ նկարի մեջ */
     color: #000;
 }
 
-.logo-text {
-    font-size: 38px;
-    color: #3b823e;
-    font-family: 'Brush Script MT', cursive;
-}
-
 .footer-links p {
-    margin: 8px 0;
+    margin: 4px 0;
     font-family: 'Brush Script MT', cursive;
     font-size: 32px;
 }
@@ -26,6 +20,11 @@
     transition: transform 0.3s;
 }
 
-.social-icons img:hover {
-    transform: scale(1.1);
+.logo-text {
+    font-size: 38px;
+    margin-left: 8px;
+}
+
+.social-icons a {
+    margin-left: 8px;
 }
