@@ -6,7 +6,7 @@ CREATE DATABASE E_Commerce;
 USE E_Commerce;
 
 -- RUBRIQUE
--- RUBRIQUE
+
 CREATE TABLE Rubrique (
     Id_Rubrique INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
